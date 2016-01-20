@@ -1,0 +1,28 @@
+{
+    "name": "London",
+    "description": "Really great condo in London! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": "London",
+    "price": 999900,
+    "address": "10 Downing Street, London SW1A 2AA, United Kingdom",
+    "lat": 51.5033635,
+    "lng": -0.1298188,
+    "images": [
+        "img/condos/condo5.jpg",
+        "img/condos/condo12.jpg",
+        "img/condos/condo13.jpg",
+        "img/condos/condo14.jpg",
+        "img/condos/condo6.jpg"
+    ],
+    "facts": {
+        "beds": 4,
+        "baths": 3,
+        "sqft": 1992,
+        "built": 1989,
+        "heating": "Heat pump"
+    },
+    "features": [
+        "Fireplace",
+        "Parking Garage",
+        "Gym in Building"
+    ]
+}

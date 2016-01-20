@@ -1,0 +1,28 @@
+{
+    "name": "Rome",
+    "description": "Really great condo in Rome! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": "Rome",
+    "price": 829900,
+    "address": "Piazza di Spagna, 22, Rome, Italy",
+    "lat": 41.90604,
+    "lng": 12.480026,
+    "images": [
+        "img/condos/condo6.jpg",
+        "img/condos/condo2.jpg",
+        "img/condos/condo3.jpg",
+        "img/condos/condo4.jpg",
+        "img/condos/condo5.jpg"
+    ],
+    "facts": {
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2032,
+        "built": 2004,
+        "heating": "Heat pump"
+    },
+    "features": [
+        "Fireplace",
+        "Parking Garage",
+        "Gym in Building"
+    ]
+}

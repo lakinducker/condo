@@ -1,0 +1,27 @@
+{
+    "name": "Paris",
+    "description": "Really great condo in Paris! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": "Paris",
+    "price": 2881900,
+    "address": "82 Boulevard de Clichy, 75018 Paris, France",
+    "lat": 48.8841303,
+    "lng": 2.3302698,
+    "images": [
+        "img/condos/condo4.jpg",
+        "img/condos/condo12.jpg",
+        "img/condos/condo13.jpg",
+        "img/condos/condo14.jpg",
+        "img/condos/condo5.jpg"
+    ],
+    "facts": {
+        "beds": 4,
+        "baths": 3,
+        "sqft": 1433,
+        "built": 1910,
+        "heating": "Heat pump"
+    },
+    "features": [
+        "Fireplace",
+        "View of Eiffel Tower"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Shanghai",
+    "description": "Really great condo in Shanghai! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": "Shanghai",
+    "price": 589900,
+    "address": "18 Zhongshan East 1st Road, Huangpu, Shanghai, China",
+    "lat": 31.2365814,
+    "lng": 121.4873884,
+    "images": [
+        "img/condos/condo3.jpg",
+        "img/condos/condo2.jpg",
+        "img/condos/condo13.jpg",
+        "img/condos/condo4.jpg",
+        "img/condos/condo5.jpg"
+    ],
+    "facts": {
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2032,
+        "built": 2004,
+        "heating": "Heat pump"
+    },
+    "features": [
+        "Fireplace",
+        "Parking Garage",
+        "Gym in Building"
+    ]
+}

@@ -1,0 +1,49 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+
+      Search by Location: <input  class="form-control" ng-model="query">
+      Sort by:
+      <select class="form-control" ng-model="orderProp">
+        <option value="price">Price Low to High</option>
+        <option value="-price">Price High to Low</option>
+        <option value="age">Newest</option>
+        <option value="name">Alphabetical</option>
+      </select>
+
+      <div>
+        <label for="priceMin">Min Price:</label>
+        <input name="priceMin" id="priceMin" type="number" ng-model="priceMin" required>
+      </div>
+
+      <div>
+        <label for="priceMax">Max Price:</label>
+        <input name="priceMax" id="priceMax" type="number" ng-model="priceMax" required>
+      </div>
+
+    </div>
+    <div class="col-md-10">
+      <!--Body content-->
+
+      <ul class="condos">
+        <li ng-repeat="condo in condos | filter:query | orderBy:orderProp | pricebetween:priceMin:priceMax"
+            class="thumbnail condo-listing">
+          <a href="#/condos/{{condo.id}}" class="thumb"><img ng-src="{{condo.imageUrl}}"></a>
+          <a href="#/condos/{{condo.id}}">{{condo.name}}</a>
+          <p>{{condo.snippet}}</p>
+          <p>
+            Listed:
+            <span ng-if="condo.age === 0">Today</span>
+            <span ng-if="condo.age === 1">1 day ago</span>
+            <span ng-if="condo.age > 1">{{condo.age}} days ago</span>
+            <br>
+
+            Price: {{condo.price | currency : "$" : 0}}
+          </p>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+{
+    "name": "Toronto",
+    "description": "Really great condo in Toronto! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": "Toronto",
+    "price": 838900,
+    "address": "301 Front Street West, Toronto, ON M5V 2T6, Canada",
+    "lat": 43.64251,
+    "lng": -79.389232,
+    "images": [
+        "img/condos/condo9.jpg",
+        "img/condos/condo10.jpg",
+        "img/condos/condo11.jpg",
+        "img/condos/condo12.jpg",
+        "img/condos/condo13.jpg"
+    ],
+    "facts": {
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2032,
+        "built": 2004,
+        "heating": "Heat pump"
+    },
+    "features": [
+        "Fireplace",
+        "Parking Garage",
+        "Gym in Building"
+    ]
+}

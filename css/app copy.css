@@ -1,0 +1,79 @@
+/* app css stylesheet */
+
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+
+.condo-images {
+  background-color: white;
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+
+.condos {
+  list-style: none;
+}
+
+.thumb {
+  float: left;
+  margin: -0.5em 1em 1.5em 0;
+  padding-bottom: 1em;
+  height: 100px;
+  width: 100px;
+}
+
+.condos li {
+  clear: both;
+  height: 115px;
+  padding-top: 15px;
+}
+
+/** Detail View **/
+img.condo {
+  float: left;
+  margin-right: 3em;
+  margin-bottom: 2em;
+  background-color: white;
+  padding: 2em;
+  height: 400px;
+  width: 400px;
+  display: none;
+}
+
+img.condo:first-child {
+  display: block;
+}
+
+
+ul.condo-thumbs {
+  margin: 0;
+  list-style: none;
+}
+
+ul.condo-thumbs li {
+  border: 1px solid black;
+  display: inline-block;
+  margin: 1em;
+  background-color: white;
+}
+
+ul.condo-thumbs img {
+  height: 100px;
+  width: 100px;
+  padding: 1em;
+}
+
+ul.condo-thumbs img:hover {
+  cursor: pointer;
+}
+
+
+.angular-google-map-container {
+  height: 400px;
+  width: 400px;
+}

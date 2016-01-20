@@ -1,0 +1,29 @@
+{
+    "name": "Miami",
+    "description": "Really great condo in Miami! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": "Miami",
+    "price": 1232900,
+    "address": "3555 Southwest 8th Street, Miami, FL 33135",
+    "lat": 25.7650688,
+    "lng": -80.2549238,
+    "images": [
+        "img/condos/condo8.jpg",
+        "img/condos/condo5.jpg",
+        "img/condos/condo6.jpg",
+        "img/condos/condo7.jpg",
+        "img/condos/condo4.jpg"
+    ],
+    "facts": {
+        "beds": 4,
+        "baths": 4,
+        "sqft": 2023,
+        "built": 2001,
+        "heating": "Heat pump"
+    },
+    "features": [
+        "Fireplace",
+        "Parking Garage",
+        "Gym in Building",
+        "Swimming Pool for Condos"
+    ]
+}

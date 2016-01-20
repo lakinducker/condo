@@ -1,0 +1,91 @@
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-md-6 condo-images">
+          <img ng-src="{{img}}"
+               class="condo"
+               ng-repeat="img in condo.images"
+               ng-class="{active: mainImageUrl==img}">
+
+
+        </div>
+
+        <div class="col-md-6">
+            <h1>{{condo.name}}</h1>
+
+            <ul class="condo-thumbs">
+                <li ng-repeat="img in condo.images">
+                    <img ng-src="{{img}}" ng-click="setImage(img)">
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <ui-gmap-google-map center="map.center" zoom="map.zoom" draggable="true" options="options">
+
+                <ui-gmap-marker coords="staticMarker.coords" options="staticMarker.options" events="staticMarker.events" idKey="staticMarker.id">
+                </ui-gmap-marker>
+
+            </ui-gmap-google-map>
+        </div>
+
+
+        <div class="col-md-6">
+            <table class="table">
+                <tr>
+                    <th>Address</th>
+                    <td>{{condo.address}}</td>
+                </tr>
+                <tr>
+                    <th>Price</th>
+                    <td>{{condo.price | currency : "$" : 0}}</td>
+                </tr>
+                <tr>
+                    <th>Estimated Mortgage</th>
+                    <td>{{condo.price / (23*12) | currency}}/mo</td>
+                </tr>
+                <tr>
+                    <th>Description</th>
+                    <td>{{condo.description}}</td>
+                </tr>
+                <tr>
+                    <th>Beds</th>
+                    <td>{{condo.facts.beds}}</td>
+                </tr>
+                <tr>
+                    <th>Baths</th>
+                    <td>{{condo.facts.baths}}</td>
+                </tr>
+                <tr>
+                    <th>SQFT</th>
+                    <td>{{condo.facts.sqft}}</td>
+                </tr>
+                <tr>
+                    <th>Built in</th>
+                    <td>{{condo.facts.built}}</td>
+                </tr>
+                <tr>
+                    <th>Heating</th>
+                    <td>{{condo.facts.heating}}</td>
+                </tr>
+                <tr>
+                    <th>Features</th>
+                    <td>
+                        <ul ng-repeat="feature in condo.features">
+                            <li>
+                                {{feature}}
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</div>

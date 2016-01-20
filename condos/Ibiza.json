@@ -1,0 +1,27 @@
+{
+    "name": "Ibiza",
+    "description": "Really great condo in Ibiza! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": "Ibiza",
+    "price": 822900,
+    "address": "Puerto San Miguel, 26, Ibiza, Spain",
+    "lat": 39.0790786,
+    "lng": 1.4391743,
+    "images": [
+        "img/condos/condo2.jpg",
+        "img/condos/condo7.jpg",
+        "img/condos/condo8.jpg",
+        "img/condos/condo9.jpg",
+        "img/condos/condo10.jpg"
+    ],
+    "facts": {
+        "beds": 4,
+        "baths": 3,
+        "sqft": 922,
+        "built": 1993,
+        "heating": "Heat pump"
+    },
+    "features": [
+        "Fireplace",
+        "Short walk to beach"
+    ]
+}

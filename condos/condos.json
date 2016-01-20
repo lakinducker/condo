@@ -1,0 +1,74 @@
+[
+    {
+        "age": 0, 
+        "id": "Barcelona",
+        "imageUrl": "img/condos/condo.jpg",
+        "name": "Barcelona",
+        "snippet": "Great condo in Barcelona! Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": 699900
+    },
+    {
+        "age": 1,
+        "id": "Ibiza",
+        "imageUrl": "img/condos/condo2.jpg",
+        "name": "Ibiza",
+        "snippet": "Great condo in Ibiza! Integer nec odio.",
+        "price": 822900
+    },
+    {
+        "age": 0,
+        "id": "Shanghai",
+        "imageUrl": "img/condos/condo3.jpg",
+        "name": "Shanghai",
+        "snippet": "Great condo in Shanghai! Praesent libero.",
+        "price": 589900
+    },
+    {
+        "age": 0,
+        "id": "Paris",
+        "imageUrl": "img/condos/condo4.jpg",
+        "name": "Paris",
+        "snippet": "Great condo Paris! Sed cursus ante dapibus diam.",
+        "price": 2881900
+    },
+    {
+        "age": 1,
+        "id": "London",
+        "imageUrl": "img/condos/condo5.jpg",
+        "name": "London",
+        "snippet": "Great condo in London! Sed nisi.",
+        "price": 999900
+    },
+    {
+        "age": 3,
+        "id": "Rome",
+        "imageUrl": "img/condos/condo6.jpg",
+        "name": "Rome",
+        "snippet": "Great condo in Rome! Nulla quis sem at nibh elementum imperdiet.",
+        "price": 829900
+    },
+    {
+        "age": 3,
+        "id": "Washington",
+        "imageUrl": "img/condos/condo7.jpg",
+        "name": "Washington",
+        "snippet": "Great condo in Washington! Duis sagittis ipsum.",
+        "price": 999930
+    },
+    {
+        "age": 0,
+        "id": "Miami",
+        "imageUrl": "img/condos/condo8.jpg",
+        "name": "Miami",
+        "snippet": "Great condo in Miami! Praesent mauris.",
+        "price": 1232900
+    },
+    {
+        "age": 2,
+        "id": "Toronto",
+        "imageUrl": "img/condos/condo9.jpg",
+        "name": "Toronto",
+        "snippet": "Great condo in Toronto! Fusce nec tellus sed augue semper porta.",
+        "price": 838900
+    }
+]

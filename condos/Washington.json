@@ -1,0 +1,28 @@
+{
+    "name": "Washington",
+    "description": "Really great condo in Washington! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": "Washington",
+    "price": 999930,
+    "address": "1600 Pennsylvania Avenue Northwest, Washington, DC 20500",
+    "lat": 38.8976094,
+    "lng": -77.0389289,
+    "images": [
+        "img/condos/condo7.jpg",
+        "img/condos/condo2.jpg",
+        "img/condos/condo3.jpg",
+        "img/condos/condo4.jpg",
+        "img/condos/condo5.jpg"
+    ],
+    "facts": {
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2773,
+        "built": 1969,
+        "heating": "Heat pump"
+    },
+    "features": [
+        "Fireplace",
+        "Parking Garage",
+        "Spa in Building"
+    ]
+}
